@@ -11,7 +11,7 @@ public class Score extends JFrame  implements ActionListener{
         setLayout(null);
         
         ImageIcon i1 = new ImageIcon(ClassLoader.getSystemResource("Quiz/icons/score1.jpg"));
-        Image i2=i1.getImage().getScaledInstance(300, 250,Image.SCALE_DEFAULT);
+        Image i2=i1.getImage().getScaledInstance(200, 150,Image.SCALE_DEFAULT);
         ImageIcon i3=new ImageIcon(i2);
         
         JLabel l1= new JLabel(i3);
