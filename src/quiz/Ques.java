@@ -235,12 +235,12 @@ q[9][4]="Dynamic binding between objects.";
                 
             }else if(ae.getSource()== LifeLine)
             {
-                if(count==2|| count ==4 || count ==6 || count ==8  || count ==9)
-                    opt2.setEnabled(false);
-                            opt3.setEnabled(false);
+              //  if(count==2|| count ==4 || count ==6 || count ==8  || count ==9)
+                    //opt2.setEnabled(false);
+                            //opt3.setEnabled(false);
             }else{
-               opt1.setEnabled(false);
-               opt4.setEnabled(false);
+              // opt1.setEnabled(false);
+               // opt4.setEnabled(false);
             }
         LifeLine.setEnabled(false);
     }
